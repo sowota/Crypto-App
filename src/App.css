@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&family=Noto+Sans:wght@400;700&display=swap');
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  text-decoration: none;
+  color:gold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.carousel-slider {
+  width: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.k{
+  background-color: rgb(51, 51, 51);
 }
 
-.App-link {
-  color: #61dafb;
+/* *{
+  -ms-overflow-style: none;
+} */
+::-webkit-scrollbar {
+  width: .5rem;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+  background: transparent;        /* color of the tracking area */
 }
+::-webkit-scrollbar-thumb {
+    /* color of the scroll thumb */
+  border-radius:5px;    /* roundness of the scroll thumb */
+  border: 2px solid #424242;  /* creates padding around scroll thumb */
+}
+
+
