@@ -122,7 +122,7 @@ export default function Coin() {
   
 
   // console.log(theCoin?.categories)
-  console.log(theCoin)
+  //console.log(theCoin)
 
   const filteredCat = theCoin?.categories?.filter(category => category)
 //  console.log(filteredCat)

@@ -21,7 +21,7 @@ const useStyles = makeStyles(()=>({
       display: 'flex',
       alignItems: 'center',
       gap:'1rem',
-      minWidth:'150px'
+      minWidth:'200px'
      
 
     },
@@ -140,7 +140,7 @@ export default function CoinTable({isLoading, coins, searchInput, filteredSearch
                                             {coin.name}
                                         
                                     </TableCell>
-                                    <TableCell  style={{fontSize:'1rem', minWidth:'120px'}} align='left'  >
+                                    <TableCell  style={{fontSize:'1rem', minWidth:'145px'}} align='left'  >
                                         {symbol} {numberWithCommas(coin.market_cap).toString().slice(0,-6) + ' M'}
                                     </TableCell>
                                     <TableCell   style={{fontSize:'1rem', minWidth:'170px'}} align='left' >
@@ -182,7 +182,7 @@ export default function CoinTable({isLoading, coins, searchInput, filteredSearch
                                             {coin.name}
                                     
                                 </TableCell>
-                                <TableCell  style={{fontSize:'1rem', minWidth:'120px', }} align='left' >
+                                <TableCell  style={{fontSize:'1rem', minWidth:'145px', }} align='left' >
                                     {symbol} {numberWithCommas(coin.market_cap).toString().slice(0,-6) + ' M'}
                                 </TableCell>
                                 <TableCell  style={{fontSize:'1rem', minWidth:'170px'}} align='left' >
