@@ -27,7 +27,6 @@ function App() {
   
       <div className={classes.App}>
         <Header/>
-      
           <Routes>
             <Route path='/' element={<Home />}  />
             <Route path="/cointable" element={<AllCoins />}  />

@@ -91,7 +91,7 @@ export default function CoinTable({isLoading, coins, searchInput, filteredSearch
     // console.log(filteredSearch)
  
     const{symbol} = CryptoState()
-
+     console.log()
 
     const numberWithCommas = x =>{
         return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
@@ -182,8 +182,8 @@ export default function CoinTable({isLoading, coins, searchInput, filteredSearch
                                             {coin.name}
                                     
                                 </TableCell>
-                                <TableCell  style={{fontSize:'1rem', minWidth:'145px', }} align='left' >
-                                    {symbol} {numberWithCommas(coin.market_cap).toString().slice(0,-6) + ' M'}
+                                <TableCell  style={{fontSize:'1rem', minWidth:'195px', }} align='left' >
+                                    {symbol} {numberWithCommas(coin.market_cap)}
                                 </TableCell>
                                 <TableCell  style={{fontSize:'1rem', minWidth:'170px'}} align='left' >
                                     {symbol} {numberWithCommas(coin.current_price)}
